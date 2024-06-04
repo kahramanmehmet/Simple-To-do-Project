@@ -32,8 +32,5 @@ actor HiDust {
       Cycles.add(amount);
       await receiver();
       { refunded = Cycles.refunded() };
-
   };
-
 };
-
